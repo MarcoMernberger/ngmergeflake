@@ -18,11 +18,11 @@
         # `nix build`
         defaultPackage = pkgs.stdenv.mkDerivation {
           pname = "NGmerge";
-          version = "0.01";
+          version = "0.3";
           src = pkgs.fetchFromGitHub {
             owner = "jsh58";
             repo = "NGmerge";
-            rev = "bf260e591114fb1045e80ec5fa2cc3e663b2e19c";
+            rev = "8b333b169fa26869d121f6ff1a86114dd393b7ef";
             sha256 =
               "sha256-yuk5WP8B3itEQ5djS1FWNEpiXq1UbUWFMgFtwBqdgPI="; # muss zur rev passen
               #pkgs.lib.fakeSha256; # muss ersetzt werden nach dem eresten laufen
